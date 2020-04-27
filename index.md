@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+中国 你好！我爱你中国！
 
 You can use the [editor on GitHub](https://github.com/yawen-1/index.html5/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
