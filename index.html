@@ -7,24 +7,33 @@
     <head name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <style>
-            button {
+            input {
                 width: 800px;
                 height: 50px;
+            }
+            
+            button {
+                width: 80px;
+                height: 50px;
                 background: #369;
-                color: white;
                 font-size: 30px;
+                color: white;
                 cursor: pointer;
             }
         </style>
     </head>
 
-    <html>
+    <body>
+        <form id="search-form" action="https://www.baidu.com/s?ie=utf-8">
+            <div id="search-area" class="line-controls">
+                <div id="search-input" type="text" placeholder="" autocomplete="off" name="wd">
+                    <input id="search-input" type="text" placeholder="" autocomplete="off" name="wd">
+                    <button>搜索</button>
+                </div>
 
-    <form id="search-form" action="https://www.baidu.com/s?ie=utf-8">
+            </div>
 
-        <form id="search-input" type="text" placeholder="" autocomplete="off" name="wd">
-            <button>搜索</button>
-        </form>
 
-        </body>
-        </html
+    </body>
+
+</html>
