@@ -3,38 +3,242 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .boxa {
+            width: 600px;
+            height: 60px;
+            border: 1px solid #369;
+            border-radius: 5px;
+            margin: 0 auto;
+            margin-top: 80px;
+            margin-bottom: 50px;
+        }
+        
+        input {
+            width: 500px;
+            height: 60px;
+            font-size: 20px;
+            box-shadow: 0px 0px 2px 1px;
+            text-decoration: none;
+        }
+        
+        button {
+            width: 93px;
+            height: 65px;
+            background: #369;
+            color: white;
+            box-shadow: 0px 0px 5px 2px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        
+        .boxb {
+            width: 600px;
+            height: 1000px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        h2 {
+            width: 120px;
+            height: 50px;
+            background: #369;
+            color: white;
+            text-align: center;
+            line-height: 50px;
+        }
+        
+        .box1 {
+            width: 120px;
+            height: 100%;
+        }
+        
+        .box2 {
+            width: 120px;
+            height: 100%;
+        }
+        
+        .box3 {
+            width: 120px;
+            height: 100%;
+        }
+        
+        ul {
+            list-style: none;
+        }
+        
+        li {
+            line-height: 50px;
+            letter-spacing: 1px;
+            text-align: center;
+            line-height: 50px;
+        }
+        
+        a {
+            text-decoration: none;
+            font-size: 22px;
+            color: black;
+        }
+        
+        a:hover {
+            color: red;
+        }
+    </style>
+</head>
 
-    <head name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <style>
-            input {
-                width: 500px;
-                height: 35px;
-            }
-            
-            button {
-                width: 80px;
-                height: 50px;
-                background: #369;
-                font-size: 30px;
-                color: white;
-                cursor: pointer;
-            }
-        </style>
-    </head>
-
-    <body>
-        <form id="search-form" action="https://www.baidu.com/s?ie=utf-8">
-            <div id="search-area" class="line-controls">
-                <div id="search-input" type="text" placeholder="" autocomplete="off" name="wd">
+<body>
+    <header>
+        <div class="boxa">
+            <form id="search-form" action="https://www.baidu.com/s?ie=utf-8">
+                <div id="search-area" class="line-controls">
                     <input id="search-input" type="text" placeholder="" autocomplete="off" name="wd">
-                    <button>搜索</button>
+                    <button id="submit">搜索</button>
                 </div>
 
+            </form>
+        </div>
+
+    </header>
+    <main>
+        <div class="boxb">
+            <div class="box1">
+
+                <ul>
+                    <h2>视频平台</h2>
+                    <li>
+                        <a href="https://www.douyin.com/">抖音视频</a>
+                    </li>
+                    <li>
+                        <a href="https://www.ixigua.com/">西瓜视频</a>
+                    </li>
+                    <li>
+                        <a href="https://www.kuaishou.com/">快手视频</a>
+                    </li>
+                    <li>
+                        <a href="https://www.huoshanzhibo.com/">火山视频</a>
+                    </li>
+                    <li>
+                        <a href="https://mp.toutiao.com/">头条号</a>
+                    </li>
+                    <li>
+                        <a href="https://mp.dayu.com/">大鱼号</a>
+                    </li>
+                    <li>
+                        <a href="https://baijiahao.baidu.com/">百家号</a>
+                    </li>
+                    <li>
+                        <a href="https://om.qq.com/">企鹅号</a>
+                    </li>
+                    <li>
+                        <a href="http://yw.tyywd.top/">公众号</a>
+                    </li>
+                    <li>
+                        <a href="http://www.qutoutiao.net/">趣头条</a>
+                    </li>
+                    <li>
+                        <a href="https://>www.YouTube/">YouTube</a>
+                    </li>
+                    <li>
+                        <a href=""></a>
+                    </li>
+                </ul>
             </div>
-            <a href="https://www.google.com/>">google</a>
+            <div class="box2">
+                <ul>
+                    <h2>音频平台</h2>
+                    <li>
+                        <a href="https://www.ximalaya.com/">喜马拉雅</a>
+                    </li>
+                    <li>
+                        <a href="https://fm.qq.com/">企鹅FM</a>
+                    </li>
+                    <li>
+                        <a href="https://www.lrts.me/">懒人听书</a>
+                    </li>
+                    <li>
+                        <a href="https://www.lizhi.fm">荔枝音频</a>
+                    </li>
+                    <li>
+                        <a href="http://playlistpush.com/">听歌音频</a>
+                    </li>
+                    <li>
+                        <a href="https://www.acx.com/">有声听书</a>
+                    </li>
+                    <li>
+                        <a href="https://www.fiverr.com/">配音音频</a>
+                    </li>
+                    <li>
+                        <a href=""></a>
+                    </li>
+                    <li>
+                        <a href=""></a>
+                    </li>
+                    <li>
+                        <a href=""></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="box3">
+                <ul>
+                    <h2>综合网站</h2>
+
+                    <li>
+                        <a href="https://www.fiverr.com/">fiverr</a>
+                    </li>
+                    <li>
+                        <a href="https://www.appen.com.cn/">澳鹏</a>
+                    </li>
+                    <li>
+                        <a href="https://www.lionbridge.com/zh-hans/">语言翻译</a>
+                    </li>
+                    <li>
+                        <a href="https://www.Google Play">Google</a>
+                    </li>
+                    <li>
+                        <a href="https://www.usertesting.com/">付费测试</a>
+                    </li>
+                    <li>
+                        <a href="https://www.fieldagent.net/">定位拍照</a>
+                    </li>
+                    <li>
+                        <a href="https://makeup.pho.to/zh/">人物修图</a>
+                    </li>
+                    <li>
+                        <a href="https://www.photopea.com/">图片修图</a>
+                    </li>
+                    <li>
+                        <a href="https://www.remove.bg/zh/>">背景移除</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/">建站免费</a>
+                    </li>
+                    <li>
+                        <a href="https://www.freelogodesign.org/">iogo制作</a>
+                    </li>
+                    <li>
+                        <a href="https://cli.im/">二维码生成</a>
+                    </li>
+
+                </ul>
+            </div>
 
 
-    </body>
+
+        </div>
+    </main>
+    <footer>
+        <div class="boxc"></div>
+        下
+    </footer>
+
+</body>
 
 </html>
